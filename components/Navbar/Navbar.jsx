@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className={styles.navbar}>
                 <div className={styles.branding}>
                     <div className={styles.logoImage}>
-                        <Image src="/images/logo.png" layout='fill' />
+                        <Image src="/images/logo.png" layout='fill' priority/>
                     </div>
                 </div>
 
