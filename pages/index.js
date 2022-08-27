@@ -30,7 +30,7 @@ export default function Home() {
         </ul>
 
         <p>
-          For more details, kindly visit our main website <a href="https://dzynfox.com">https://dzynfox.com</a>
+          For more details, kindly visit our main website <a href='https://dzynfox.com' target="_blank" rel="noreferrer">https://dzynfox.com</a>
         </p>
 
       </Section>

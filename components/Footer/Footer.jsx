@@ -10,7 +10,7 @@ const Footer = () => {
                         <h1 className={styles.sectionHeader}>DzynFox Visual Communications LLP</h1>
                         <p className={styles.p}>A brand of Markall - Marketing All Out </p>
                         <p className={styles.p}>COPYRIGHT &copy; DZYNFOX 2022</p>
-                        <p className={styles.attribution}>Images created with the help of <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
+                        <p className={styles.attribution}>Images created with the help of <a href="https://www.freepik.com" target="_blank" rel="noreferrer">Freepik</a></p>
                     </div>
                     <div className={styles.address}>
                         <h2 className={styles.h2}>Our Address</h2>

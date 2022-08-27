@@ -20,8 +20,8 @@ const Navbar = () => {
                     <ul className={
                         !isOpen ? styles.ul : `${styles.ul} ${styles.active}`}
                         onClick={() => setIsOpen(false)}>
-                        <li> <Link href={'/'}>Home</Link></li>
-                        <li>  <a href='https://dzynfox.com/#contact' target="_blank">Contact us</a> </li>
+                        <li> <a href='https://dzynfox.com' target="_blank" rel="noreferrer">Home</a></li>
+                        <li>  <a href='https://dzynfox.com/#contact' target="_blank" rel="noreferrer">Contact us</a> </li>
                     </ul>
                     <button
                         className={
