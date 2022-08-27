@@ -1,0 +1,153 @@
+.Footer {
+    background-color: rgb(15, 5, 5);
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.Footer a {
+    text-decoration: underline;
+}
+
+.FooterContent {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-green);
+    padding: 0 5vw;
+}
+
+.FooterContent .companyDetails {
+    align-items: flex-start;
+    display: flex;
+    background-color: var(--primary-green);
+    flex-direction: column;
+}
+
+.Footer .sectionHeader {
+    font-size: 1.5em;
+    background-color: var(--primary-green);
+    text-transform: uppercase;
+    font-family: Quicksand;
+}
+
+.p {
+    background-color: var(--primary-green);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+.attribution {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7rem;
+}
+
+.FooterContent .address {
+    text-align: right;
+    background-color: var(--primary-green);
+}
+
+.FooterContent .address .h2 {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+    background-color: var(--primary-green);
+}
+
+.line {
+    margin: .5rem auto;
+    margin-bottom: 1rem;
+    opacity: .7;
+    height: 1.5px;
+    color: white;
+    width: 95%;
+    background-color: white;
+
+}
+
+.MoreLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.MoreLinks .ul li {
+    list-style: none;
+    /* padding: .5rem 1rem; */
+    font-weight: 500;
+    cursor: pointer;
+    margin: .5rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+
+.MoreLinks .ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2.3px;
+    width: 0;
+    left: 0;
+    bottom: -9px;
+    transition: 0.3s ease;
+
+}
+
+.MoreLinks .ul li a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+
+.MoreLinks .ul li a:hover:after {
+    width: 100%;
+}
+
+
+.MoreLinks .ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem auto;
+    gap: 1.5rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    font-family: 'Montserrat', serif;
+}
+
+@media screen and (max-width: 1050px) {
+    .FooterContent .companyDetails {
+        align-items: center;
+    }
+
+    .Footer .FooterContent .sectionHeader {
+        font-size: 2em;
+    }
+
+    .FooterContent {
+        flex-direction: column;
+    }
+
+    .FooterContent .address {
+        text-align: center;
+    }
+
+    .MoreLinks ul {
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .MoreLinks .ul li {
+        margin: 0;
+    }
+}

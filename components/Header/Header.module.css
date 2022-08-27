@@ -1,0 +1,79 @@
+.ServiceDetailedHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 80px);
+  border-bottom: 2px solid var(--primary-green);
+}
+
+.ServiceDetailedHeader .textContent span {
+  color: green !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.ServiceDetailedHeader .textContent {
+  max-width: 50vw;
+  height: fit-content;
+  font-family: 'Quicksand';
+}
+
+.ServiceDetailedHeader .imgContainer {
+  position: relative;
+  width: 40vw;
+  height: 50vh;
+}
+
+.ServiceDetailedHeader .imgContainer img {
+  object-fit: contain;
+}
+
+.ServiceDetailedHeader h1 {
+  font-family: "Quicksand", sans-serif !important;
+  text-transform: uppercase;
+  font-size: 3.5vw;
+}
+
+.ServiceDetailedHeader h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  font-size: 2vw;
+  max-width: 30vw;
+}
+
+.lottieAnimation {
+  position: relative;
+  width: 40vw;
+  height: 50vh;
+  z-index: 0;
+}
+
+.lottieAnimation img {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 850px) {
+  .ServiceDetailedHeader {
+    flex-direction: column-reverse;
+    /* height: 60vh; */
+  }
+
+  .ServiceDetailedHeader .imgContainer {
+    width: 95vw;
+    margin-bottom: 1rem;
+  }
+
+  .ServiceDetailedHeader .textContent {
+    max-width: 80vw;
+  }
+
+  .ServiceDetailedHeader h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .ServiceDetailedHeader h2 {
+    font-size: 1.5rem;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+}
